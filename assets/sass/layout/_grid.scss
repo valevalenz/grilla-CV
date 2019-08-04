@@ -1,0 +1,13 @@
+
+.contenedor-principal {
+  display: grid;
+  grid-template-rows: 5fr;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 600px) {
+  .contenedor-principal {
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 5fr;
+  }
+}
